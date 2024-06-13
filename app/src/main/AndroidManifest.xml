@@ -12,6 +12,11 @@
         android:theme="@style/Theme.ApiTest"
         android:usesCleartextTraffic="true"
         android:networkSecurityConfig="@xml/network_security_config">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAnGySxP08NBlvL5-PToKgw6zCRHJoKQyA"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
